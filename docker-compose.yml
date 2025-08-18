@@ -1,0 +1,39 @@
+version: '3.8'
+services:
+  turnos:
+    build: ./turnos
+    ports:
+      - "8081:8081"
+    environment:
+      - PACIENTES_SERVICE_URL=http://pacientes:8082/pacientes
+      - MEDICOS_SERVICE_URL=http://medicos:8083/medicos
+      - NOTIFICACIONES_SERVICE_URL=http://notificaciones:8084/notificaciones
+    depends_on:
+      - pacientes
+      - medicos
+      - notificaciones
+
+  pacientes:
+    build: ./pacientes
+    ports:
+      - "8082:8082"
+
+  medicos:
+    build: ./medicos
+    ports:
+      - "8083:8083"
+
+  notificaciones:
+    build: ./notificaciones
+    ports:
+      - "8084:8084"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - turnos
+      - pacientes
+      - medicos
+      - notificaciones

@@ -1,0 +1,5 @@
+com\tuempresa\medicos\service\MedicoService.class
+com\tuempresa\medicos\MedicosApplication.class
+com\tuempresa\medicos\model\Medico.class
+com\tuempresa\medicos\repository\MedicoRepository.class
+com\tuempresa\medicos\controller\MedicoController.class
