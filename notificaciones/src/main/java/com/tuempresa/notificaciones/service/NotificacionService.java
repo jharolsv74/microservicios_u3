@@ -5,9 +5,15 @@ import com.tuempresa.notificaciones.repository.NotificacionRepository;
 import java.time.LocalDateTime;
 import java.util.List;
 
+
+import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Service
 public class NotificacionService {
     private final NotificacionRepository repository;
 
+    @Autowired
     public NotificacionService(NotificacionRepository repository) {
         this.repository = repository;
     }

@@ -1,7 +1,9 @@
 com\tuempresa\notificaciones\repository\NotificacionRepository.class
 com\tuempresa\notificaciones\WebConfig$1.class
 com\tuempresa\notificaciones\NotificacionesApplication.class
+com\tuempresa\notificaciones\config\RabbitMQConfig.class
 com\tuempresa\notificaciones\service\NotificacionService.class
 com\tuempresa\notificaciones\controller\NotificacionController.class
+com\tuempresa\notificaciones\service\TurnoEventListener.class
 com\tuempresa\notificaciones\model\Notificacion.class
 com\tuempresa\notificaciones\WebConfig.class

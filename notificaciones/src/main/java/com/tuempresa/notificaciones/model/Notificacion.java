@@ -1,8 +1,13 @@
+
 package com.tuempresa.notificaciones.model;
 
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
 public class Notificacion {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long pacienteId;
     private String email;

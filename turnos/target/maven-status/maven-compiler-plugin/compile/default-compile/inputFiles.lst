@@ -1,6 +1,8 @@
 C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\model\Turno.java
 C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\model\Notificacion.java
 C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\controller\TurnoController.java
+C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\service\TurnoEventPublisher.java
+C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\config\RabbitMQConfig.java
 C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\service\TurnoService.java
 C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\WebConfig.java
 C:\Users\jharo\Desktop\ESPE - Jharol\OCTAVO NIVEL - ESPE\ARQUITECTURA\PARCIAL 3\microservicios\turnos\src\main\java\com\tuempresa\turnos\TurnosApplication.java
