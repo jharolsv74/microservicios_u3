@@ -1,5 +1,7 @@
 com\tuempresa\pacientes\controller\PacienteController.class
+com\tuempresa\pacientes\service\PacienteService.class
+com\tuempresa\pacientes\WebConfig.class
+com\tuempresa\pacientes\WebConfig$1.class
 com\tuempresa\pacientes\model\Paciente.class
 com\tuempresa\pacientes\PacientesApplication.class
-com\tuempresa\pacientes\service\PacienteService.class
 com\tuempresa\pacientes\repository\PacienteRepository.class

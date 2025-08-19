@@ -2,4 +2,6 @@ com\tuempresa\medicos\service\MedicoService.class
 com\tuempresa\medicos\MedicosApplication.class
 com\tuempresa\medicos\model\Medico.class
 com\tuempresa\medicos\repository\MedicoRepository.class
+com\tuempresa\medicos\WebConfig$1.class
 com\tuempresa\medicos\controller\MedicoController.class
+com\tuempresa\medicos\WebConfig.class

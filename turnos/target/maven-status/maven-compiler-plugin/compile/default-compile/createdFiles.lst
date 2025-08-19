@@ -2,6 +2,8 @@ com\tuempresa\turnos\model\Turno.class
 com\tuempresa\turnos\exception\GlobalExceptionHandler.class
 com\tuempresa\turnos\service\TurnoService.class
 com\tuempresa\turnos\repository\TurnoRepository.class
+com\tuempresa\turnos\WebConfig.class
+com\tuempresa\turnos\WebConfig$1.class
 com\tuempresa\turnos\TurnosApplication.class
 com\tuempresa\turnos\model\Notificacion.class
 com\tuempresa\turnos\controller\TurnoController.class
